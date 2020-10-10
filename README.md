@@ -22,20 +22,7 @@ To install the plugin, follow these instructions.
 
 ## Twig Webp Filter Overview
 
--Insert text here-
-
-## Configuring Twig Webp Filter
-
--Insert text here-
-
-## Using Twig Webp Filter
-
--Insert text here-
-
-## Twig Webp Filter Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
+Accepts an instance of craft\elements\Asset
+``{% set imageObject = webp(image.one()) %}``
 
 Brought to you by [Daniel G Adarve](https://github.com/danieladarve)
