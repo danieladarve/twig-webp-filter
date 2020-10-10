@@ -1,0 +1,48 @@
+{
+  "name": "danieladarve/twig-webp-filter",
+  "description": "Adds a twig function that returns an Object containing webp and img data",
+  "type": "craft-plugin",
+  "version": "0.0.1",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "twig webp filter"
+  ],
+  "support": {
+    "docs": "https://github.com/danieladarve/twig-webp-filter/blob/master/README.md",
+    "issues": "https://github.com/danieladarve/twig-webp-filter/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel G Adarve",
+      "homepage": "https://github.com/danieladarve"
+    }
+  ],
+  "require": {
+    "aelvan/imager": "dev-dev-fix-deprecations as 2.4.0",
+    "craftcms/cms": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "danieladarve\\twigwebpfilter\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Twig Webp Filter",
+    "handle": "twig-webp-filter",
+    "developer": "Daniel G Adarve",
+    "developerUrl": "https://github.com/danieladarve",
+    "documentationUrl": "https://github.com/danieladarve/twig-webp-filter/blob/master/README.md",
+    "changelogUrl": "https://raw.githubusercontent.com/danieladarve/twig-webp-filter/master/CHANGELOG.md",
+    "class": "danieladarve\\twigwebpfilter\\TwigWebpFilter"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/danieladarve/Imager-Craft"
+    }
+  ]
+}
